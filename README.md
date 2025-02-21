@@ -1,3 +1,18 @@
+## Running the Stack with Docker Compose
+
+To get your alerting demo up and running, follow these steps:
+
+**Build and Start the Containers**  
+   From your project root, run:
+   ```bash
+   docker-compose up --build
+   ```
+**Trigger Error Traffic**
+
+Open your browser or use a terminal to hit the endpoint:
+```bash
+http://localhost:8080/api/random-error
+  ```
 
 ## Troubleshooting Prometheus & Alertmanager Setup
 
